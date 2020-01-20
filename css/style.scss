@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  height: 100vh;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  /*------- header&footer general style --------*/
+  .topbot {
+    width: 100%;
+    height: 8vh;
+  }
+  /*------- header individual styles --------*/
+  .header {
+    top: 0;
+    position: relative;
+  }
+  /*------- section style --------*/
+  .section {
+    width: auto;
+    height: auto;
+    padding: 20px;
+  }
+
+  /*------- Greeting and searchbar --------*/
+  .search {
+    margin: 120px 0 40px 0;
+    text-align: center;
+    h1 {
+      color: #fefefe;
+      text-shadow: 2px 2px rgba(70, 79, 107, 0.78);
+      font-size: 3.4em;
+      margin: 20px 0 35px 0;
+    }
+    input {
+      width: 30%;
+      color: rgb(45, 63, 68);
+      box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.78);
+      border-radius: 8px;
+      border: none;
+      padding: 8px;
+      height: 28px;
+      border-radius: 30px;
+      outline: none;
+      font-family: FontAwesome !important;
+      font-size: 1em;
+      font-weight: 600;
+    }
+  }
+  /*------- links individual styles --------*/
+  .links {
+    text-align: center;
+    .box {
+      height: auto;
+      margin: 0 50px;
+      display: inline-block;
+      padding: 10px;
+      text-shadow: 2px 2px rgb(0, 0, 0);
+      vertical-align: top;
+      h2 {
+        font-size: 2em;
+        color: #fefefe;
+        letter-spacing: 3px;
+      }
+      li {
+        list-style-type: none;
+        margin: 5px;
+        font-size: 1.1em;
+        a {
+          color: #fefefe;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  /*------- footer individual style --------*/
+  .footer {
+    bottom: 0;
+    position: absolute;
+    .boticon {
+      color: #fff;
+      font-size: 1.7em;
+      text-shadow: 2px 2px rgb(0, 0, 0);
+      margin: 0 50px;
+      cursor: pointer;
+    }
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
+  }
+}

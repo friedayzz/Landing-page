@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Landing Page</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script src="https://kit.fontawesome.com/c9c9f67346.js" crossorigin="anonymous"></script>
+  </head>
+  <body onload="startTime(); checkTimeBg()">
+    <div class="container">
+      <div class="header topbot">
+        <p id="txt"></p>
+      </div>
+
+      <div class="section search">
+        <h1 id="greeting">Good Evening!</h1>
+        <form action="https://google.com/search" method="get">
+          <input type="text" name="q" placeholder="&#xf002; Search google..." />
+        </form>
+      </div>
+      <div class="section links">
+        <ul class="box">
+          <h2><i class="fas fa-users"></i>Socials</h2>
+          <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+        <ul class="box">
+          <h2><i class="fab fa-youtube"></i>Entertainment</h2>
+          <li><a href="#">Youtube</a></li>
+          <li><a href="#">Twitch</a></li>
+          <li><a href="#">Netflix</a></li>
+          <li><a href="#">chess.com</a></li>
+        </ul>
+        <ul class="box">
+          <h2><i class="fas fa-laptop-code"></i>Education</h2>
+          <li><a href="#">Udemy</a></li>
+          <li><a href="#">Code Challenges</a></li>
+          <li><a href="#">Stack Overflow</a></li>
+        </ul>
+      </div>
+
+      <div class="footer topbot">
+        <div class="left settings boticon">
+          <i class="fas fa-cog"></i>
+        </div>
+        <div class="right calendar boticon">
+          <i class="fas fa-calendar-alt"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/time.js"></script>
+  </body>
+</html>
